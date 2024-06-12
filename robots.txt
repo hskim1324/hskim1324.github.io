@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://hskim1324.github.io/sitemap.xml
+Sitemap: https://hskim1324.github.io/hskim1324.github.io//sitemap.xml
