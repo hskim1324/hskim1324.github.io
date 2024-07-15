@@ -75,8 +75,8 @@ my current research interests lie in <span class="font-weight-bold">DRAM Reliabi
               <div class="periodical">
               </div>
               <div class="links"> 
-                <a href="/assets/pdf/ISLPED_manuscript_Kim et al_final.pdf" class="btn btn-sm z-depth-0" role="button">
-                  PDF
+                <a href="" class="btn btn-sm z-depth-0" role="button">
+                  DOI
                 </a>
                 <a href="" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">
                   Code
@@ -106,8 +106,8 @@ my current research interests lie in <span class="font-weight-bold">DRAM Reliabi
               <div class="periodical">
               </div>
               <div class="links"> 
-                <a href="/assets/pdf/TeaVisor_Network_Hypervisor_for_Bandwidth_Isolation_in_SDN-NV.pdf" class="btn btn-sm z-depth-0" role="button">
-                  PDF
+                <a href="https://doi.org/10.1109/TCC.2022.3225915" class="btn btn-sm z-depth-0" role="button">
+                  DOI
                 </a>
               </div>
             </div>
