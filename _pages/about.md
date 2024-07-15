@@ -64,10 +64,10 @@ my current research interests lie in <span class="font-weight-bold">DRAM Reliabi
             </div>
             <div class="col-sm-8">
               <div class="title">
-                Sparrow&nbsp;ECC:&nbsp;A&nbsp;Lightweight&nbsp;ECC&nbsp;Approach&nbsp;for&nbsp;HBM&nbsp;Refresh&nbsp;Reduction&nbsp;towards&nbsp;Energy-efficient&nbsp;DNN&nbsp;Inference
+                Sparrow ECC: A Lightweight ECC Approach for HBM Refresh Reduction towards Energy-efficient DNN Inference
               </div>
               <div class="author">
-                <em><b>Hoseok Kim</b></em>,&nbsp;Seung&nbsp;Hun&nbsp;Choi,&nbsp;Young-Ho&nbsp;Gong,&nbsp;Joonho&nbsp;Kong,&nbsp;and&nbsp;Sung&nbsp;Woo&nbsp;Chung
+                <em><b>Hoseok Kim</b></em>, Seung Hun Choi, Young-Ho Gong, Joonho Kong, and Sung Woo Chung
               </div>
               <div class="periodical">
                 <em>ACM/IEEE International Symposium on Low Power Electronics and Design</em>, 2024
@@ -95,10 +95,10 @@ my current research interests lie in <span class="font-weight-bold">DRAM Reliabi
             </div>
             <div class="col-sm-8">
               <div class="title">
-                TeaVisor:&nbsp;network&nbsp;hypervisor&nbsp;for&nbsp;bandwidth&nbsp;isolation&nbsp;in&nbsp;SDN-NV
+                TeaVisor: network hypervisor for bandwidth isolation in SDN-NV
               </div>
               <div class="author">
-                Yeonho&nbsp;Yoo,&nbsp;Gyeongsik&nbsp;Yang,&nbsp;Jeunghwan&nbsp;Lee,&nbsp;Changyong&nbsp;Shin,&nbsp;<em><b>Hoseok&nbsp;Kim</b></em>,&nbsp;and&nbsp;Chuck&nbsp;Yoo
+                Yeonho Yoo, Gyeongsik Yang, Jeunghwan Lee, Changyong Shin, <em><b>Hoseok Kim</b></em>, and Chuck Yoo
               </div>
               <div class="periodical">
                 <em>IEEE Transactions on Cloud Computing</em>, 2022
