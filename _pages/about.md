@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Master's student @ <a href="https://korea.edu">Korea University</a><br><a href="http://smrl.korea.ac.kr">SoC and Microprocessor Reseach Laboratory [SMRL]</a>
+subtitle: Master's student @ <a href="https://korea.edu">Korea University</a><br><a href="http://smrl.korea.ac.kr">SoC and Microprocessor Reseach Laboratory [SMRL]</a> (Advisor&#58; Prof. Sung Woo Chung)
 
 profile:
   align: right
@@ -18,4 +18,117 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-This site is under construction.
+Hi, my name is <span class="font-weight-bold">Hoseok Kim</span>, a master's student in my last semester at Korea University.<br>
+While deeply interested in most <span class="font-weight-bold">Computer Architecture</span> as well as OS related fields,<br>
+my current research interests lie in <span class="font-weight-bold">DRAM Reliability</span> and <span class="font-weight-bold">Processing-In-Memory (PIM)</span>.<br><br><br>
+
+<div class="row">
+    <div class="col-md-5">
+        <h2><span class="font-weight-bold">Interests</span></h2>
+        <li>DRAM Reliability</li>
+        <li>Processing-In-Memory (PIM)</li>
+        <li>HW/SW Low Power Computing Techniques</li>
+        <li>HW/SW Co-optimization for AI</li>
+        <li>Network Systems</li>
+    </div>
+    <div class="col-md-7">
+        <h2><span class="font-weight-bold">Education</span></h2>
+        <ul class="ul-edu fa-ul mb-0">
+          <li>
+            <h5><b>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            M.S. in Computer Science, 2023 ~ present<br>
+            </b></h5>
+            <h6>Korea University</h6>
+          </li>
+          <li>
+            <h5><b>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            B.S. in Computer Science, 2023<br>
+            </b></h5>
+            <h6>Korea University</h6>
+          </li>
+        </ul>
+    </div>
+</div>
+<br>
+
+<h1><span class="font-weight-bold">Publications</span></h1>
+  <div class="publications">
+    <h2 class="bibliography">2024</h2>
+      <ol class="bibliography">
+        <li> 
+          <div class="row">
+            <div class="col col-sm-2 abbr">
+              <abbr class="badge rounded w-100"><a href="https://www.islped.org/2024/" rel="external nofollow noopener" target="_blank">ISLPED</a></abbr>
+            </div>
+            <div class="col-sm-8">
+              <div class="title">
+                Sparrow&nbsp;ECC:&nbsp;A&nbsp;Lightweight&nbsp;ECC&nbsp;Approach&nbsp;for&nbsp;HBM&nbsp;Refresh&nbsp;Reduction&nbsp;towards&nbsp;Energy-efficient&nbsp;DNN&nbsp;Inference
+              </div>
+              <div class="author">
+                <em><b>Hoseok Kim</b></em>,&nbsp;Seung&nbsp;Hun&nbsp;Choi,&nbsp;Young-Ho&nbsp;Gong,&nbsp;Joonho&nbsp;Kong,&nbsp;and&nbsp;Sung&nbsp;Woo&nbsp;Chung
+              </div>
+              <div class="periodical">
+                <em>ACM/IEEE International Symposium on Low Power Electronics and Design</em>, 2024
+              </div>
+              <div class="periodical">
+              </div>
+              <div class="links"> 
+                <a href="/assets/pdf/ISLPED_manuscript_Kim et al_final.pdf" class="btn btn-sm z-depth-0" role="button">
+                  PDF
+                </a>
+                <a href="" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">
+                  Code
+                </a> 
+              </div>
+            </div>
+          </div>
+        </li>
+      </ol>
+    <h2 class="bibliography">2022</h2>
+      <ol class="bibliography">
+        <li> 
+          <div class="row">
+            <div class="col col-sm-2 abbr">
+              <abbr class="badge rounded w-100"><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6245519" rel="external nofollow noopener" target="_blank">IEEE TCC</a></abbr>
+            </div>
+            <div class="col-sm-8">
+              <div class="title">
+                TeaVisor:&nbsp;network&nbsp;hypervisor&nbsp;for&nbsp;bandwidth&nbsp;isolation&nbsp;in&nbsp;SDN-NV
+              </div>
+              <div class="author">
+                Yeonho&nbsp;Yoo,&nbsp;Gyeongsik&nbsp;Yang,&nbsp;Jeunghwan&nbsp;Lee,&nbsp;Changyong&nbsp;Shin,&nbsp;<em><b>Hoseok&nbsp;Kim</b></em>,&nbsp;and&nbsp;Chuck&nbsp;Yoo
+              </div>
+              <div class="periodical">
+                <em>IEEE Transactions on Cloud Computing</em>, 2022
+              </div>
+              <div class="periodical">
+              </div>
+              <div class="links"> 
+                <a href="/assets/pdf/TeaVisor_Network_Hypervisor_for_Bandwidth_Isolation_in_SDN-NV.pdf" class="btn btn-sm z-depth-0" role="button">
+                  PDF
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ol>
+  </div>
+
+<br>
+
+<h1><span class="font-weight-bold">Honors and Awards</span></h1>
+  <li><span class="font-weight-bold">Young Fellow</span>, 61st Design Automation Conference [Jun. 2024]</li>
+  <li><span class="font-weight-bold">Semester High Honors</span>, Korea University [Spring 2021, Fall 2021, Spring 2022, Fall 2022]</li>
+
+<br>
+
+<h1><span class="font-weight-bold">Professional Services</span></h1>
+  <li>Reviewer, ICCAD 2024</li>
+
+<br>
+
+<!--
+<h1><span class="font-weight-bold">Skills</span></h1>
+-->
