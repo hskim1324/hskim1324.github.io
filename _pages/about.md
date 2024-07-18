@@ -78,7 +78,7 @@ my current research interests lie in <span class="font-weight-bold">DRAM Reliabi
                 <a href="" class="btn btn-sm z-depth-0" role="button">
                   DOI
                 </a>
-                <a href="" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">
+                <a href="https://github.com/hskim1324/Sparrow_ECC" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">
                   Code
                 </a> 
               </div>
