@@ -61,6 +61,7 @@ my current research interests lie in <span class="font-weight-bold">DRAM Reliabi
           <div class="row">
             <div class="col col-sm-2 abbr">
               <abbr class="badge rounded w-100"><a href="https://www.islped.org/2024/" rel="external nofollow noopener" target="_blank">ISLPED</a></abbr>
+              <abbr class="badge rounded w-100" style="background-color: #ff0000">Best Paper Award</abbr>
             </div>
             <div class="col-sm-8">
               <div class="title">
@@ -119,6 +120,7 @@ my current research interests lie in <span class="font-weight-bold">DRAM Reliabi
 <br>
 
 <h1><span class="font-weight-bold">Honors and Awards</span></h1>
+  <li><span class="font-weight-bold">Best Paper Award</span>, ACM/IEEE International Symposium on Low Power Electronics and Design [Aug. 2024]</li>
   <li><span class="font-weight-bold">Young Fellow</span>, 61st Design Automation Conference [Jun. 2024]</li>
   <li><span class="font-weight-bold">Semester High Honors</span>, Korea University [Spring 2021, Fall 2021, Spring 2022, Fall 2022]</li>
 
