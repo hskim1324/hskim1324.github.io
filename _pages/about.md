@@ -126,7 +126,7 @@ my current research interests lie in <span class="font-weight-bold">DRAM Reliabi
 
 <br>
 
-<h1><span class="font-weight-bold">Professional Services</span></h1>
+<h1><span class="font-weight-bold">Professional Service</span></h1>
   <li>Reviewer, ICCAD 2024</li>
 
 <br>
