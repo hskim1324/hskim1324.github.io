@@ -36,14 +36,14 @@ my current research interests lie in <span class="font-weight-bold">DRAM Reliabi
           <li>
             <h5><b>
             <i class="fa-li fas fa-graduation-cap"></i>
-            M.S. in Computer Science, 2023 ~ present<br>
+            M.S. in Computer Science and Engineering, 2023 ~ present<br>
             </b></h5>
             <h6>Korea University</h6>
           </li>
           <li>
             <h5><b>
             <i class="fa-li fas fa-graduation-cap"></i>
-            B.S. in Computer Science, 2023<br>
+            B.S. in Computer Science and Engineering, 2023<br>
             </b></h5>
             <h6>Korea University</h6>
           </li>
