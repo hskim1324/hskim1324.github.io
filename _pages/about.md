@@ -28,7 +28,6 @@ my current research interests lie in <span class="font-weight-bold">DRAM Reliabi
         <li>DRAM Reliability</li>
         <li>Processing-In-Memory (PIM)</li>
         <li>HW/SW Low Power Computing Techniques</li>
-        <li>HW/SW Co-optimization for AI</li>
         <li>Network Systems</li>
     </div>
     <div class="col-md-7">
