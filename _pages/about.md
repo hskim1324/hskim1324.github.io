@@ -75,7 +75,7 @@ my current research interests lie in <span class="font-weight-bold">DRAM Reliabi
               <div class="periodical">
               </div>
               <div class="links"> 
-                <a href="" class="btn btn-sm z-depth-0" role="button">
+                <a href="https://doi.org/10.1145/3665314.3670825" class="btn btn-sm z-depth-0" role="button">
                   DOI
                 </a>
                 <a href="https://github.com/hskim1324/Sparrow_ECC" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">
