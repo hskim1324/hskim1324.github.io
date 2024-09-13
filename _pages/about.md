@@ -9,7 +9,6 @@ profile:
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p><a href=/assets/pdf/CV.pdf><i class="fa-solid fa-file-text"></i></p>
     <p><a href="https://github.com/hskim1324"><i class="fa-brands fa-github"></i></a></p>
     <p><a href="https://www.linkedin.com/in/hoseok-kim-03a6352b0"><i class="fab fa-linkedin-in"></i></a></p>
 
@@ -17,6 +16,8 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
+
+<!-- <p><a href=/assets/pdf/CV.pdf><i class="fa-solid fa-file-text"></i></p> -->
 
 Hi, my name is <span class="font-weight-bold">Hoseok Kim</span>, a master's student in my last semester at Korea University.<br>
 While interested in most <span class="font-weight-bold">Computer Architecture</span> as well as OS related fields,<br>
