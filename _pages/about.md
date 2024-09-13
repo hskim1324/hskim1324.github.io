@@ -21,7 +21,7 @@ social: false # includes social icons at the bottom of the page
 
 Hi, my name is <span class="font-weight-bold">Hoseok Kim</span>, a master's student in my last semester at Korea University.<br>
 While interested in most <span class="font-weight-bold">Computer Architecture</span> as well as OS related fields,<br>
-my current research interests lie in <span class="font-weight-bold">Energy-efficient Computing</span> and <span class="font-weight-bold">DRAM Reliability</span>.<br><br><br>.
+my current research interests lie in <span class="font-weight-bold">Energy-efficient Computing</span> and <span class="font-weight-bold">DRAM Reliability</span>.<br><br><br>
 
 <div class="row">
     <div class="col-md-5">
