@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Master's student @ <a href="https://korea.edu">Korea University</a><br><a href="http://smrl.korea.ac.kr">SoC and Microprocessor Reseach Laboratory [SMRL]</a> (Advisor&#58; Prof. Sung Woo Chung)
+subtitle: Ph.D. student @ <a href="https://www.purdue.edu">Purdue University</a> (Advisor&#58; Prof. Vijay Raghunathan)
 
 profile:
   align: right
@@ -19,16 +19,16 @@ social: false # includes social icons at the bottom of the page
 
 <!-- <p><a href=/assets/pdf/CV.pdf><i class="fa-solid fa-file-text"></i></p> -->
 
-Hi, my name is <span class="font-weight-bold">Hoseok Kim</span>, a master's student in my last semester at Korea University.<br>
-While interested in most <span class="font-weight-bold">Computer Architecture</span> as well as OS related fields,<br>
-my current research interests lie in <span class="font-weight-bold">Energy-efficient Computing</span> and <span class="font-weight-bold">DRAM Reliability</span>.<br><br><br>
+Hi, my name is <span class="font-weight-bold">Hoseok Kim</span>, an incoming Ph.D. student at Purdue University.<br>
+While I am eager to delve into most <span class="font-weight-bold">Computer Architecture</span> and OS related fields,<br>
+I am currently focusing on <span class="font-weight-bold">HW-SW Co-design for Energy-efficient Edge Computing</span>.
+<br><br><br>
 
 <div class="row">
     <div class="col-md-5">
         <h2><span class="font-weight-bold">Interests</span></h2>
-        <li>Energy-efficient Computing</li>
-        <li>DRAM Reliability</li>
-        <li>Processing-In-Memory (PIM)</li>
+        <li>Energy-efficient Edge Computing</li>
+        <li>NPU Architecture</li>
     </div>
     <div class="col-md-7">
         <h2><span class="font-weight-bold">Education</span></h2>
@@ -36,7 +36,14 @@ my current research interests lie in <span class="font-weight-bold">Energy-effic
           <li>
             <h5><b>
             <i class="fa-li fas fa-graduation-cap"></i>
-            M.S. in Computer Science and Engineering, 2023 ~ present<br>
+            Ph.D. in Electrical and Computer Engineering, 2025 ~<br>
+            </b></h5>
+            <h6>Purdue University</h6>
+          </li>
+          <li>
+            <h5><b>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            M.S. in Computer Science and Engineering, 2025<br>
             </b></h5>
             <h6>Korea University</h6>
           </li>
