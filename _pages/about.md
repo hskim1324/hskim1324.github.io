@@ -27,8 +27,8 @@ I am currently focusing on <span class="font-weight-bold">HW-SW Co-design for En
 <div class="row">
     <div class="col-md-5">
         <h2><span class="font-weight-bold">Interests</span></h2>
-        <li>Energy-efficient Edge Computing</li>
-        <li>NPU Architecture</li>
+          <li>Energy-efficient Edge Computing</li>
+          <li>NPU Architecture</li>
     </div>
     <div class="col-md-7">
         <h2><span class="font-weight-bold">Education</span></h2>
