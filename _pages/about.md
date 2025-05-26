@@ -22,7 +22,7 @@ social: false # includes social icons at the bottom of the page
 Hi, my name is <span class="font-weight-bold">Hoseok Kim</span>, an incoming Ph.D. student at Purdue University.<br>
 While I am eager to delve into most <span class="font-weight-bold">Computer Architecture</span> and OS related fields,<br>
 I am currently focusing on <span class="font-weight-bold">HW-SW Co-design for Energy-efficient Edge Computing</span>.
-<br><br><br>
+<br><br><br><br>
 
 <div class="row">
     <div class="col-md-5">
