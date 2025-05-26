@@ -38,14 +38,14 @@ I am currently focusing on <span class="font-weight-bold">HW-SW Co-design for En
             <i class="fa-li fas fa-graduation-cap"></i>
             Ph.D. in Electrical and Computer Engineering, 2025 ~<br>
             </b></h5>
-            <h6>Purdue University</h6>
+            <h6>Purdue University (Advisor: Prof. Vijay Raghunathan)</h6>
           </li>
           <li>
             <h5><b>
             <i class="fa-li fas fa-graduation-cap"></i>
             M.S. in Computer Science and Engineering, 2025<br>
             </b></h5>
-            <h6>Korea University</h6>
+            <h6>Korea University (Advisor: Prof. Sung Woo Chung)</h6>
           </li>
           <li>
             <h5><b>
