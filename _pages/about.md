@@ -81,6 +81,9 @@ I am currently focusing on <span class="font-weight-bold">Energy-efficient Edge 
               <div class="periodical">
               </div>
               <div class="links">
+                <a href="https://doi.org/10.1109/ICEdge67252.2025.11412934" class="btn btn-sm z-depth-0" role="button">
+                  DOI
+                </a>
               </div>
             </div>
           </div>
