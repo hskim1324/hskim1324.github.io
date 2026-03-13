@@ -19,9 +19,9 @@ social: false # includes social icons at the bottom of the page
 
 <!-- <p><a href=/assets/pdf/CV.pdf><i class="fa-solid fa-file-text"></i></p> -->
 
-Hi, my name is <span class="font-weight-bold">Hoseok Kim</span>, an incoming Ph.D. student at Purdue University.<br>
+Hi, my name is <span class="font-weight-bold">Hoseok Kim</span>, a Ph.D. student at Purdue University.<br>
 While I am eager to delve into most <span class="font-weight-bold">Computer Architecture</span> and OS related fields,<br>
-I am currently focusing on <span class="font-weight-bold">HW-SW Co-design for Energy-efficient Edge Computing</span>.
+I am currently focusing on <span class="font-weight-bold">Energy-efficient Edge Computing</span> and <span class="font-weight-bold">NPU Architecture</span>.
 <br><br><br><br>
 
 <div class="row">
@@ -61,9 +61,34 @@ I am currently focusing on <span class="font-weight-bold">HW-SW Co-design for En
 
 <h1><span class="font-weight-bold">Publications</span></h1>
   <div class="publications">
+    <h2 class="bibliography">2025</h2>
+      <ol class="bibliography">
+        <li>
+          <div class="row">
+            <div class="col col-sm-2 abbr">
+              <abbr class="badge rounded w-100">ICEdge</abbr>
+            </div>
+            <div class="col-sm-8">
+              <div class="title">
+                Towards Efficient Acceleration of Hyena and Kolmogorov-Arnold Networks on NPUs
+              </div>
+              <div class="author">
+                Arghadip Das, <em><b>Hoseok Kim</b></em>, Arnab Raha, Shamik Kundu, Soumendu Kumar Ghosh, Deepak Mathaikutty, and Vijay Raghunathan
+              </div>
+              <div class="periodical">
+                <em>IEEE International Conference on Intelligent Computing and Systems at the Edge</em>, 2025
+              </div>
+              <div class="periodical">
+              </div>
+              <div class="links">
+              </div>
+            </div>
+          </div>
+        </li>
+      </ol>
     <h2 class="bibliography">2024</h2>
       <ol class="bibliography">
-        <li> 
+        <li>
           <div class="row">
             <div class="col col-sm-2 abbr">
               <abbr class="badge rounded w-100"><a href="https://www.islped.org/2024/" rel="external nofollow noopener" target="_blank">ISLPED</a></abbr>
@@ -81,13 +106,13 @@ I am currently focusing on <span class="font-weight-bold">HW-SW Co-design for En
               </div>
               <div class="periodical">
               </div>
-              <div class="links"> 
+              <div class="links">
                 <a href="https://doi.org/10.1145/3665314.3670825" class="btn btn-sm z-depth-0" role="button">
                   DOI
                 </a>
                 <a href="https://github.com/hskim1324/Sparrow_ECC" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">
                   Code
-                </a> 
+                </a>
               </div>
             </div>
           </div>
@@ -129,6 +154,8 @@ I am currently focusing on <span class="font-weight-bold">HW-SW Co-design for En
   <li><span class="font-weight-bold">Best Paper Award</span>, ACM/IEEE International Symposium on Low Power Electronics and Design [Aug. 2024]</li>
   <li><span class="font-weight-bold">Young Fellow</span>, 61st Design Automation Conference [Jun. 2024]</li>
   <li><span class="font-weight-bold">Semester High Honors</span>, Korea University [Spring 2021, Fall 2021, Spring 2022, Fall 2022]</li>
+  <li><span class="font-weight-bold">Participation Award</span>, Korea Computer Congress [Jul. 2022]</li>
+  <li><span class="font-weight-bold">Participation Award</span>, Korea Software Congress [Dec. 2021]</li>
 
 <br>
 
