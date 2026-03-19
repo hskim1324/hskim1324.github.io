@@ -32,25 +32,25 @@ I am currently focusing on <span class="font-weight-bold">Energy-efficient Edge 
     </div>
     <div class="col-md-7">
         <h2><span class="font-weight-bold">Education</span></h2>
-        <ul class="ul-edu fa-ul mb-0">
+        <ul class="ul-edu mb-0" style="list-style: none; padding-left: 0;">
           <li>
             <h5><b>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            Ph.D. in Electrical and Computer Engineering, 2025 ~<br>
+            <i class="fas fa-graduation-cap"></i>
+            Ph.D. in Electrical and Computer Engineering, 2025 ~
             </b></h5>
             <h6>Purdue University (Advisor: Prof. Vijay Raghunathan)</h6>
           </li>
           <li>
             <h5><b>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            M.S. in Computer Science and Engineering, 2025<br>
+            <i class="fas fa-graduation-cap"></i>
+            M.S. in Computer Science and Engineering, 2025
             </b></h5>
             <h6>Korea University (Advisor: Prof. Sung Woo Chung)</h6>
           </li>
           <li>
             <h5><b>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            B.S. in Computer Science and Engineering, 2023<br>
+            <i class="fas fa-graduation-cap"></i>
+            B.S. in Computer Science and Engineering, 2023
             </b></h5>
             <h6>Korea University</h6>
           </li>
