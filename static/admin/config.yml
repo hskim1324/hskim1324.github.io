@@ -1,0 +1,31 @@
+backend:
+  name: github
+  repo: hskim1324/hskim1324.github.io
+  branch: master
+  # After creating a GitHub OAuth App, set your base_url to your OAuth proxy
+  # base_url: https://your-oauth-proxy.workers.dev
+
+media_folder: static/img/blog
+public_folder: /img/blog
+
+collections:
+  - name: blog
+    label: Blog Posts
+    folder: content/blog
+    create: true
+    slug: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Summary", name: "summary", widget: "string", required: false }
+      - label: "Cover"
+        name: "cover"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Image", name: "image", widget: "image", required: false }
+          - { label: "Alt Text", name: "alt", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
