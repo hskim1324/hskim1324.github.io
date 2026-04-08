@@ -1,0 +1,38 @@
+/* Custom overrides for PaperMod theme */
+
+/* Profile image - make circular */
+.profile .profile_inner img {
+  border-radius: 50%;
+}
+
+/* Publication cards on homepage */
+.post-content div[style*="border-left: 3px solid"] {
+  transition: box-shadow 0.2s ease;
+}
+
+.post-content div[style*="border-left: 3px solid"]:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Blog card hover effect */
+.post-content a[style*="border: 1px solid"]:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-decoration: none;
+}
+
+/* Better mobile spacing */
+@media (max-width: 600px) {
+  .profile .profile_inner {
+    padding: 1rem;
+  }
+
+  .post-content {
+    padding: 0 1rem !important;
+  }
+}
+
+/* Dark mode fix for Best Paper Award badge */
+.dark span[style*="background: #fef2f2"] {
+  background: #451a1a !important;
+  color: #f87171 !important;
+}
