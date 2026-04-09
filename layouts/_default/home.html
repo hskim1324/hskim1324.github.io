@@ -149,17 +149,25 @@
 /* Hero two-column layout */
 .hero-section {
   display: flex;
-  gap: 3rem;
-  max-width: 960px;
+  gap: 2.5rem;
+  max-width: 1060px;
   margin: 0 auto;
   padding: 2.5rem 1.5rem 1rem;
   align-items: flex-start;
 }
 
 .hero-left {
-  text-align: center;
-  flex: 0 0 280px;
-  max-width: 280px;
+  text-align: left;
+  flex: 0 0 220px;
+  max-width: 220px;
+}
+
+.hero-left .social-icons {
+  justify-content: flex-start;
+}
+
+.hero-left .buttons {
+  justify-content: flex-start;
 }
 
 .hero-left h1 {
@@ -195,6 +203,15 @@
     flex: unset;
     max-width: unset;
     width: 100%;
+    text-align: center;
+  }
+
+  .hero-left .social-icons {
+    justify-content: center;
+  }
+
+  .hero-left .buttons {
+    justify-content: center;
   }
 
   .hero-right {
