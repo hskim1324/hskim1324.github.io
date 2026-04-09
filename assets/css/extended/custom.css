@@ -1,23 +1,8 @@
 /* Custom overrides for PaperMod theme */
 
-/* Profile image - make circular */
-.profile .profile_inner img {
-  border-radius: 50%;
-}
-
-/* Publication cards on homepage */
-.post-content div[style*="border-left: 3px solid"] {
-  transition: box-shadow 0.2s ease;
-}
-
-.post-content div[style*="border-left: 3px solid"]:hover {
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-}
-
-/* Blog card hover effect */
-.post-content a[style*="border: 1px solid"]:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  text-decoration: none;
+/* ===== Global compact typography ===== */
+body {
+  line-height: 1.2;
 }
 
 /* ===== Compact header ===== */
@@ -68,6 +53,136 @@
   color: var(--primary);
 }
 
+/* ===== Single page (Publications, CV, Blog posts) ===== */
+.post-title {
+  font-size: 1.3rem !important;
+  margin-bottom: 0.25rem;
+}
+
+.post-meta {
+  font-size: 0.8rem !important;
+}
+
+.post-content {
+  margin: 1rem 0 !important;
+}
+
+.post-content h1 {
+  font-size: 1.2rem !important;
+  margin: 1.25rem 0 0.5rem !important;
+}
+
+.post-content h2 {
+  font-size: 1.1rem !important;
+  margin: 1rem 0 0.5rem !important;
+}
+
+.post-content h3 {
+  font-size: 1rem !important;
+  margin: 0.75rem 0 0.4rem !important;
+}
+
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+  font-size: 0.9rem !important;
+  margin: 0.5rem 0 0.3rem !important;
+}
+
+.post-content p,
+.post-content li,
+.post-content dl,
+.post-content ol,
+.post-content ul,
+.post-content figure,
+.post-content table {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-content ol,
+.post-content ul {
+  padding-inline-start: 1.2rem;
+}
+
+.post-content a {
+  font-size: inherit;
+}
+
+.post-content hr {
+  margin: 1rem 0;
+}
+
+.post-content blockquote {
+  font-size: 0.9rem;
+}
+
+.post-content code {
+  font-size: 0.82rem;
+}
+
+/* ===== List / Blog index page ===== */
+.post-entry {
+  margin-bottom: 0.5rem;
+}
+
+.entry-header h2 {
+  font-size: 1rem !important;
+}
+
+.entry-content {
+  font-size: 0.85rem;
+}
+
+.entry-footer {
+  font-size: 0.75rem;
+}
+
+.first-entry {
+  min-height: auto !important;
+}
+
+.first-entry .entry-header h2 {
+  font-size: 1.1rem !important;
+}
+
+/* Page header on list pages */
+.page-header h1 {
+  font-size: 1.3rem !important;
+}
+
+/* ===== Pagination ===== */
+.pagination a {
+  font-size: 0.8rem;
+  line-height: 28px;
+  padding: 0 12px;
+}
+
+/* ===== Tags / Terms ===== */
+.terms-tags a {
+  font-size: 0.85rem !important;
+}
+
+/* ===== Search ===== */
+#searchInput {
+  font-size: 0.9rem !important;
+}
+
+/* ===== Post footer (tags, nav links) ===== */
+.post-tags a {
+  font-size: 0.8rem;
+}
+
+.paginav {
+  font-size: 0.85rem;
+}
+
+/* ===== Footer ===== */
+.footer {
+  font-size: 0.8rem;
+}
+
+/* ===== Mobile ===== */
 @media (max-width: 768px) {
   .nav-compact #menu {
     gap: 0.6rem;
@@ -75,5 +190,41 @@
 
   .nav-compact #menu a {
     font-size: 0.8rem;
+  }
+
+  .post-title {
+    font-size: 1.1rem !important;
+  }
+
+  .post-content h1 {
+    font-size: 1.05rem !important;
+  }
+
+  .post-content h2 {
+    font-size: 1rem !important;
+  }
+
+  .post-content h3 {
+    font-size: 0.9rem !important;
+  }
+
+  .post-content p,
+  .post-content li,
+  .post-content dl,
+  .post-content ol,
+  .post-content ul {
+    font-size: 0.82rem;
+  }
+
+  .entry-header h2 {
+    font-size: 0.9rem !important;
+  }
+
+  .entry-content {
+    font-size: 0.78rem;
+  }
+
+  .page-header h1 {
+    font-size: 1.1rem !important;
   }
 }
