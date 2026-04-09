@@ -283,6 +283,19 @@ h2.section-title {
 
 .hero-left .buttons {
   justify-content: flex-start;
+  flex-wrap: nowrap !important;
+  max-width: none !important;
+  gap: 0.25rem;
+}
+
+.hero-left .button {
+  margin: 0 !important;
+  padding: 4px !important;
+  font-size: 0.7rem;
+}
+
+.hero-left .button .button-inner {
+  padding: 0 5px !important;
 }
 
 .hero-left h1 {
@@ -292,7 +305,7 @@ h2.section-title {
 
 .hero-subtitle p {
   margin: 0.2rem 0;
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   color: var(--secondary);
   white-space: nowrap;
 }
@@ -304,16 +317,6 @@ h2.section-title {
 
 .hero-left .social-icons a {
   padding: 4px;
-}
-
-.hero-left .buttons {
-  flex-wrap: nowrap;
-  gap: 0.3rem;
-}
-
-.hero-left .button {
-  font-size: 0.7rem;
-  padding: 0.25rem 0.6rem;
 }
 
 .hero-photo {
