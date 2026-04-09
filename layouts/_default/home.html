@@ -28,15 +28,6 @@
     <h1>{{ .title | default site.Title | markdownify }}</h1>
     <span class="hero-subtitle">{{ .subtitle | markdownify }}</span>
     {{- partial "social_icons.html" -}}
-    {{- with .buttons }}
-    <div class="buttons">
-        {{- range . }}
-        <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}">
-            <span class="button-inner">{{ .name }}</span>
-        </a>
-        {{- end }}
-    </div>
-    {{- end }}
     {{- end }}
   </div>
 
@@ -281,33 +272,18 @@ h2.section-title {
   justify-content: flex-start;
 }
 
-.hero-left .buttons {
-  justify-content: flex-start;
-  flex-wrap: nowrap !important;
-  max-width: none !important;
-  gap: 0.25rem;
-}
-
-.hero-left .button {
-  margin: 0 !important;
-  padding: 4px !important;
-  font-size: 0.7rem;
-}
-
-.hero-left .button .button-inner {
-  padding: 0 5px !important;
-}
-
 .hero-left h1 {
   margin-top: 0.75rem;
   font-size: 1.15rem;
 }
 
+.hero-subtitle,
 .hero-subtitle p {
   margin: 0.2rem 0;
-  font-size: 0.72rem;
+  font-size: 0.72rem !important;
   color: var(--secondary);
   white-space: nowrap;
+  line-height: 1.4;
 }
 
 .hero-left .social-icons a svg {
@@ -359,10 +335,6 @@ h2.section-title {
   }
 
   .hero-left .social-icons {
-    justify-content: center;
-  }
-
-  .hero-left .buttons {
     justify-content: center;
   }
 
