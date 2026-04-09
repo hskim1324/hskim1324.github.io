@@ -10,13 +10,9 @@
     </div>
   </header>
 
-  {{- if .Content }}
   <div class="post-content">
-    {{- if not (.Param "disableAnchoredHeadings") }}
-    {{- partial "anchored_headings.html" .Content -}}
-    {{- else }}{{ .Content }}{{ end }}
+    {{- partial "pub_cards.html" (dict "pubs" site.Data.publications) }}
   </div>
-  {{- end }}
 </article>
 
 {{- end }}

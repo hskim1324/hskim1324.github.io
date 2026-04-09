@@ -1,0 +1,24 @@
+{{- $pubs := .pubs }}
+{{- $lastYear := 0 }}
+{{- range $pubs }}
+  {{- if ne .year $lastYear }}
+  <div class="pub-year">{{ .year }}</div>
+  {{- $lastYear = .year }}
+  {{- end }}
+  <div class="pub-card">
+    <div class="pub-title">{{ .title }}</div>
+    <div class="pub-meta">{{ .authors | safeHTML }}</div>
+    <div class="pub-meta pub-venue">{{ .venue }}</div>
+    <div class="pub-links">
+      {{- with .award }}
+      <span class="pub-badge award-badge">{{ . }}</span>
+      {{- end }}
+      {{- with .doi }}
+      <a href="{{ . }}" class="pub-badge">DOI</a>
+      {{- end }}
+      {{- with .code }}
+      <a href="{{ . }}" class="pub-badge">Code</a>
+      {{- end }}
+    </div>
+  </div>
+{{- end }}
