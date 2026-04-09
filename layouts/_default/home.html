@@ -16,7 +16,7 @@
         {{- end -}}
         {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
         {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}}
-            {{- $img = $img.Resize "220x" }}
+            {{- $img = $img.Resize "660x" }}
         {{- end }}
         <img draggable="false" src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
             class="hero-photo" />
