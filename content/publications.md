@@ -1,8 +1,9 @@
 ---
 title: "Publications"
-layout: "single"
+layout: "publications"
 url: /publications/
 summary: "Academic publications by Hoseok Kim"
+hideMeta: true
 ---
 
 <div class="pub-year">2024</div>
