@@ -66,14 +66,10 @@ body {
   color: var(--primary);
 }
 
-/* ===== Single page (Publications, CV, Blog posts) ===== */
+/* ===== Single page (Publications, CV) ===== */
 .post-title {
   font-size: 1.3rem !important;
   margin-bottom: 0.25rem;
-}
-
-.post-meta {
-  font-size: 0.8rem !important;
 }
 
 .post-content {
@@ -132,68 +128,6 @@ body {
 
 .post-content code {
   font-size: 0.82rem;
-}
-
-/* ===== List / Blog index page ===== */
-.post-entry {
-  margin-bottom: 0.5rem;
-}
-
-.entry-header h2 {
-  font-size: 1rem !important;
-}
-
-.entry-content {
-  font-size: 0.85rem;
-}
-
-.entry-footer {
-  font-size: 0.75rem;
-}
-
-.first-entry {
-  min-height: auto !important;
-}
-
-.first-entry .entry-header h2 {
-  font-size: 1.1rem !important;
-}
-
-/* Page header on list pages */
-.page-header h1 {
-  font-size: 1.3rem !important;
-}
-
-/* ===== Pagination ===== */
-.pagination a {
-  font-size: 0.8rem;
-  line-height: 28px;
-  padding: 0 12px;
-}
-
-/* ===== Tags / Terms ===== */
-.terms-tags a {
-  font-size: 0.85rem !important;
-}
-
-/* ===== Search ===== */
-.page-header h1 svg {
-  width: 1.3rem;
-  height: 1.3rem;
-  vertical-align: middle;
-}
-
-#searchInput {
-  font-size: 0.9rem !important;
-}
-
-/* ===== Post footer (tags, nav links) ===== */
-.post-tags a {
-  font-size: 0.8rem;
-}
-
-.paginav {
-  font-size: 0.85rem;
 }
 
 /* ===== Publication cards (shared across pages) ===== */
@@ -264,24 +198,6 @@ body {
   color: #f87171;
 }
 
-@media (max-width: 768px) {
-  .pub-title {
-    font-size: 0.82rem;
-  }
-
-  .pub-meta {
-    font-size: 0.75rem;
-  }
-
-  .pub-badge {
-    font-size: 0.7rem;
-  }
-
-  .pub-card {
-    padding: 0.6rem 0.75rem;
-  }
-}
-
 /* ===== Footer ===== */
 .footer {
   font-size: 0.8rem;
@@ -321,15 +237,19 @@ body {
     font-size: 0.82rem;
   }
 
-  .entry-header h2 {
-    font-size: 0.9rem !important;
+  .pub-title {
+    font-size: 0.82rem;
   }
 
-  .entry-content {
-    font-size: 0.78rem;
+  .pub-meta {
+    font-size: 0.75rem;
   }
 
-  .page-header h1 {
-    font-size: 1.1rem !important;
+  .pub-badge {
+    font-size: 0.7rem;
+  }
+
+  .pub-card {
+    padding: 0.6rem 0.75rem;
   }
 }
