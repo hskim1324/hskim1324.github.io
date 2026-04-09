@@ -20,15 +20,14 @@ params:
     title: Hoseok Kim
     subtitle: |
       Ph.D. Student @ [Purdue University](https://www.purdue.edu)
-      Advised by Prof. Vijay Raghunathan
+      Advisor: Professor Vijay Raghunathan
 
-      Researching energy-efficient edge computing and NPU architecture.
     imageUrl: img/profile.jpg
     imageWidth: 150
     imageHeight: 150
     imageTitle: Hoseok Kim
     buttons:
-      - name: Publications
+      - name: Pub.
         url: /publications/
       - name: Blog
         url: /blog/
