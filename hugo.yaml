@@ -63,11 +63,12 @@ params:
       - content
 
   # Show reading time, share buttons, breadcrumbs
-  showReadingTime: true
+  showReadingTime: false
   showShareButtons: false
-  showBreadCrumbs: true
+  showBreadCrumbs: false
   showPostNavLinks: true
   showCodeCopyButtons: true
+  hideMeta: true
 
   # Cover image defaults
   cover:
