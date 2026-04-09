@@ -1,11 +1,46 @@
 {{- define "main" }}
 
-{{- partial "index_profile.html" . }}
+<!-- Hero: profile left, interests+education right on wide screens -->
+<div class="hero-section">
+  <div class="hero-left">
+    {{- with site.Params.profileMode }}
+    {{- if .imageUrl -}}
+    {{- $img := "" }}
+    {{- if not (urls.Parse .imageUrl).IsAbs }}
+        {{- $img = resources.Get .imageUrl }}
+    {{- end }}
+    {{- if $img }}
+        {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
+        {{- if hugo.IsExtended -}}
+            {{- $processableFormats = $processableFormats | append "webp" -}}
+        {{- end -}}
+        {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
+        {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}}
+            {{- $img = $img.Resize (printf "%dx%d" (.imageWidth | default 150) (.imageHeight | default 150)) }}
+        {{- end }}
+        <img draggable="false" src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+            height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" class="hero-photo" />
+    {{- else }}
+        <img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+            height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" class="hero-photo" />
+    {{- end }}
+    {{- end }}
+    <h1>{{ .title | default site.Title | markdownify }}</h1>
+    <span class="hero-subtitle">{{ .subtitle | markdownify }}</span>
+    {{- partial "social_icons.html" -}}
+    {{- with .buttons }}
+    <div class="buttons">
+        {{- range . }}
+        <a class="button" href="{{ trim .url " " }}" rel="noopener" title="{{ .name }}">
+            <span class="button-inner">{{ .name }}</span>
+        </a>
+        {{- end }}
+    </div>
+    {{- end }}
+    {{- end }}
+  </div>
 
-<div class="post-content" style="max-width: 800px; margin: 0 auto; padding: 0 1.5rem;">
-
-  <!-- Interests & Education -->
-  <div style="display: grid; grid-template-columns: 1fr 1.5fr; gap: 2rem; margin-bottom: 2.5rem;">
+  <div class="hero-right">
     <div>
       <h2 style="margin-bottom: 0.75rem;">Interests</h2>
       <ul>
@@ -15,7 +50,7 @@
         <li>Operating Systems</li>
       </ul>
     </div>
-    <div>
+    <div style="margin-top: 1.5rem;">
       <h2 style="margin-bottom: 0.75rem;">Education</h2>
       <div style="margin-bottom: 0.75rem;">
         <strong>Ph.D. in Electrical and Computer Engineering, 2025 &ndash;</strong><br>
@@ -31,6 +66,9 @@
       </div>
     </div>
   </div>
+</div>
+
+<div class="post-content" style="max-width: 800px; margin: 0 auto; padding: 0 1.5rem;">
 
   <!-- Selected Publications -->
   <h2 style="margin-bottom: 1rem;">Selected Publications</h2>
@@ -106,10 +144,63 @@
 </div>
 
 <style>
-@media (max-width: 600px) {
-  .post-content > div:first-child {
-    grid-template-columns: 1fr !important;
+/* Hero two-column layout */
+.hero-section {
+  display: flex;
+  gap: 3rem;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 1rem;
+  align-items: flex-start;
+}
+
+.hero-left {
+  text-align: center;
+  flex-shrink: 0;
+  min-width: 240px;
+}
+
+.hero-left h1 {
+  margin-top: 0.75rem;
+  font-size: 1.6rem;
+}
+
+.hero-subtitle p {
+  margin: 0.25rem 0;
+  font-size: 0.95rem;
+  color: var(--secondary);
+}
+
+.hero-photo {
+  border-radius: 50%;
+}
+
+.hero-right {
+  flex: 1;
+  padding-top: 0.5rem;
+}
+
+/* Mobile: stack vertically */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem 1.5rem 0.5rem;
   }
+
+  .hero-left {
+    min-width: unset;
+  }
+
+  .hero-right {
+    padding-top: 0;
+    width: 100%;
+  }
+}
+
+/* Blog grid single column on mobile */
+@media (max-width: 600px) {
   .post-content div[style*="grid-template-columns: 1fr 1fr"] {
     grid-template-columns: 1fr !important;
   }
