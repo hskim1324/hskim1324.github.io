@@ -36,6 +36,19 @@ body {
 
 .nav-compact #menu a {
   font-size: 0.85rem;
+  text-shadow: 0 1px 4px rgba(255,255,255,0.7);
+}
+
+[data-theme="dark"] .nav-compact #menu a {
+  text-shadow: 0 1px 4px rgba(0,0,0,0.7);
+}
+
+.nav-compact #theme-toggle svg {
+  filter: drop-shadow(0 1px 3px rgba(255,255,255,0.6));
+}
+
+[data-theme="dark"] .nav-compact #theme-toggle svg {
+  filter: drop-shadow(0 1px 3px rgba(0,0,0,0.6));
 }
 
 .nav-compact #menu .active {

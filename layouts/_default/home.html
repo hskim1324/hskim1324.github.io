@@ -283,10 +283,23 @@ h2.section-title {
   text-align: left;
   flex: 0 0 220px;
   max-width: 220px;
+  text-shadow: 0 1px 4px rgba(255,255,255,0.7);
+}
+
+.dark .hero-left {
+  text-shadow: 0 1px 4px rgba(0,0,0,0.7);
 }
 
 .hero-left .social-icons {
   justify-content: flex-start;
+}
+
+.hero-left .social-icons a svg {
+  filter: drop-shadow(0 1px 3px rgba(255,255,255,0.6));
+}
+
+.dark .hero-left .social-icons a svg {
+  filter: drop-shadow(0 1px 3px rgba(0,0,0,0.6));
 }
 
 .hero-left h1 {
