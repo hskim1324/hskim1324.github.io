@@ -6,6 +6,16 @@ summary: "Academic publications by Hoseok Kim"
 hideMeta: true
 ---
 
+<div class="pub-year">2025</div>
+<div class="pub-card">
+  <div class="pub-title">Towards Efficient Acceleration of Hyena and Kolmogorov-Arnold Networks on NPUs</div>
+  <div class="pub-meta">A. Das, <strong>H. Kim</strong>, A. Raha, S. Kundu, S.K. Ghosh, D. Mathaikutty, V. Raghunathan</div>
+  <div class="pub-meta pub-venue">IEEE International Conference on Intelligent Computing and Systems at the Edge (ICEdge), 2025</div>
+  <div class="pub-links">
+    <a href="https://doi.org/10.1109/ICEdge67252.2025.11412934" class="pub-badge">DOI</a>
+  </div>
+</div>
+
 <div class="pub-year">2024</div>
 <div class="pub-card">
   <div class="pub-title">Sparrow ECC: A Lightweight ECC Approach for HBM Refresh Reduction towards Energy-efficient DNN Inference</div>
@@ -20,9 +30,9 @@ hideMeta: true
 
 <div class="pub-year">2022</div>
 <div class="pub-card">
-  <div class="pub-title">TeaVisor: network hypervisor for bandwidth isolation in SDN-NV</div>
+  <div class="pub-title">TeaVisor: Network Hypervisor for Bandwidth Isolation in SDN-NV</div>
   <div class="pub-meta">Y. Yoo, G. Yang, J. Lee, C. Shin, <strong>H. Kim</strong>, C. Yoo</div>
-  <div class="pub-meta pub-venue">IEEE Transactions on Cloud Computing, 2022</div>
+  <div class="pub-meta pub-venue">IEEE Transactions on Cloud Computing (TCC), 2022</div>
   <div class="pub-links">
     <a href="https://doi.org/10.1109/TCC.2022.3225915" class="pub-badge">DOI</a>
   </div>
