@@ -22,13 +22,13 @@
 
 /* ===== Compact header ===== */
 .header {
-  background: rgba(255, 255, 255, 0.5) !important;
+  background: rgba(255, 255, 255, 0.3) !important;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
 
 [data-theme="dark"] .header {
-  background: rgba(29, 30, 32, 0.5) !important;
+  background: rgba(29, 30, 32, 0.3) !important;
 }
 
 .nav-compact {
