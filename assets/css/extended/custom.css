@@ -1,5 +1,10 @@
 /* Custom overrides for PaperMod theme */
 
+/* ===== Fix .list background so pub-cards contrast equally on all pages ===== */
+.list {
+  background: var(--theme);
+}
+
 /* ===== Global compact typography ===== */
 body {
   line-height: 1.2;

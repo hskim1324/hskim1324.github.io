@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:hskim1324.github.io)",
+      "Bash(grep:*)",
+      "Bash(git:*)"
+    ]
+  }
+}
