@@ -410,11 +410,11 @@ h2.section-title {
 
 /* ===== Banner background ===== */
 .banner-bg {
-  position: fixed;
-  top: 0;
+  position: absolute;
+  top: calc(-1 * var(--header-height) - var(--gap));
   left: 0;
   right: 0;
-  height: 280px;
+  height: 320px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
