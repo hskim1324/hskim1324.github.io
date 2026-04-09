@@ -38,7 +38,8 @@
         Energy-efficient Edge Computing, NPU Architecture
       </ul>
     </div>
-    <div style="margin-top: 1.5rem;">
+    <hr class="section-divider">
+    <div>
       <h2 class="section-title">Education</h2>
       <div class="edu-entry">
         <strong class="edu-degree">Ph.D. in Electrical and Computer Engineering, 2025 &ndash;</strong><br>
@@ -60,6 +61,7 @@
 
 <div class="home-content">
 
+  <hr class="section-divider">
   <!-- Selected Publications -->
   <h2 class="section-title">Selected Publications</h2>
 
@@ -95,10 +97,11 @@
     </div>
   </div>
 
-  <div style="text-align: center; margin-bottom: 2.5rem;">
+  <div style="text-align: center; margin-bottom: 0.75rem;">
     <a href="/publications/" class="body-text" style="font-weight: 500;">View all publications &rarr;</a>
   </div>
 
+  <hr class="section-divider">
   <!-- Honors & Awards -->
   <h2 class="section-title">Honors & Awards</h2>
   <ul class="honors-list">
@@ -111,6 +114,7 @@
 
   <!-- Recent Posts -->
   {{- if (where site.RegularPages "Section" "blog") }}
+  <hr class="section-divider">
   <h2 class="section-title">Recent Posts</h2>
   <div class="blog-grid">
     {{- range first 4 (where site.RegularPages "Section" "blog") }}
@@ -134,11 +138,24 @@
 </div>
 
 <style>
+/* ===== Global compact line spacing ===== */
+.hero-section,
+.home-content {
+  line-height: 1.35;
+}
+
+/* ===== Section dividers ===== */
+.section-divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 0.75rem 0;
+}
+
 /* ===== Typography scale ===== */
 h2.section-title {
   font-size: 1.1rem;
   font-weight: 700;
-  margin: 0 0 1rem 0;
+  margin: 0 0 0.5rem 0;
   padding: 0;
   line-height: 1.4;
 }
@@ -149,7 +166,7 @@ h2.section-title {
 }
 
 .edu-entry {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .edu-degree {
@@ -169,10 +186,10 @@ h2.section-title {
 }
 
 .pub-card {
-  padding: 0.75rem 0.85rem;
+  padding: 0.5rem 0.75rem;
   background: var(--code-bg);
   border-radius: 8px;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.5rem;
   border-left: 3px solid var(--primary);
 }
 
@@ -216,12 +233,12 @@ h2.section-title {
 .honors-list {
   list-style: none;
   padding: 0;
-  margin-bottom: 2.5rem;
+  margin-bottom: 0.5rem;
   font-size: 0.85rem;
 }
 
 .honors-list li {
-  padding: 0.45rem 0;
+  padding: 0.3rem 0;
   border-bottom: 1px solid var(--border);
 }
 
