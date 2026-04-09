@@ -230,7 +230,7 @@ body {
 }
 
 .pub-badge {
-  font-size: 0.75rem;
+  font-size: 0.75rem !important;
   padding: 0.2rem 0.5rem;
   background: var(--tertiary);
   border-radius: 4px;
@@ -250,7 +250,7 @@ body {
 .award-badge {
   background: #fef2f2;
   color: #dc2626;
-  font-size: 0.75rem;
+  font-size: 0.75rem !important;
 }
 
 [data-theme="dark"] .award-badge {
