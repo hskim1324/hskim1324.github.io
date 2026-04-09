@@ -68,7 +68,7 @@
   <!-- Selected Publications -->
   <h2 class="section-title">Selected Publications</h2>
 
-  {{- $selected := where site.Data.publications "selected" true }}
+  {{- $selected := where hugo.Data.publications "selected" true }}
   {{- partial "pub_cards.html" (dict "pubs" $selected) }}
 
   <div style="text-align: center; margin-bottom: 0.75rem;">
