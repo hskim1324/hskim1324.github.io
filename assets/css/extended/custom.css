@@ -226,16 +226,21 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 0.3rem;
+  align-items: stretch;
 }
 
 .pub-badge {
   font-size: 0.75rem;
-  padding: 0.1rem 0.45rem;
+  padding: 0.2rem 0.5rem;
   background: var(--tertiary);
   border-radius: 4px;
   text-decoration: none !important;
   color: inherit;
   box-shadow: none !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.2;
 }
 
 .pub-badge:hover {
@@ -245,7 +250,7 @@ body {
 .award-badge {
   background: #fef2f2;
   color: #dc2626;
-  font-weight: 600;
+  font-size: 0.75rem;
 }
 
 [data-theme="dark"] .award-badge {
