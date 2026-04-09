@@ -16,13 +16,13 @@
         {{- end -}}
         {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
         {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}}
-            {{- $img = $img.Resize (printf "%dx%d" (.imageWidth | default 150) (.imageHeight | default 150)) }}
+            {{- $img = $img.Resize "220x" }}
         {{- end }}
         <img draggable="false" src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
-            height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" class="hero-photo" />
+            class="hero-photo" />
     {{- else }}
         <img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
-            height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" class="hero-photo" />
+            class="hero-photo" />
     {{- end }}
     {{- end }}
     <h1>{{ .title | default site.Title | markdownify }}</h1>
@@ -182,8 +182,9 @@
 }
 
 .hero-photo {
-  border-radius: 50%;
-  object-fit: cover;
+  border-radius: 6px;
+  width: 100%;
+  height: auto;
 }
 
 .hero-right {
