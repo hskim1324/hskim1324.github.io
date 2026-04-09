@@ -28,8 +28,6 @@ params:
     buttons:
       - name: Pub.
         url: /publications/
-      - name: Blog
-        url: /blog/
       - name: CV
         url: /cv/
 
@@ -89,10 +87,6 @@ menu:
       name: Publications
       url: /publications/
       weight: 20
-    - identifier: blog
-      name: Blog
-      url: /blog/
-      weight: 30
     - identifier: cv
       name: CV
       url: /cv/

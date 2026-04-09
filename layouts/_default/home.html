@@ -115,28 +115,6 @@
     <li class="last"><strong>Participation Award</strong> <span class="detail-text">&mdash; Korea Software Congress, Dec 2021</span></li>
   </ul>
 
-  <!-- Recent Posts -->
-  {{- if (where site.RegularPages "Section" "blog") }}
-  <hr class="section-divider">
-  <h2 class="section-title">Recent Posts</h2>
-  <div class="blog-grid">
-    {{- range first 4 (where site.RegularPages "Section" "blog") }}
-    <a href="{{ .Permalink }}" class="blog-card">
-      {{- if .Params.cover.image }}
-      <img src="{{ .Params.cover.image | absURL }}" alt="{{ .Title }}" style="width: 100%; height: 140px; object-fit: cover;">
-      {{- end }}
-      <div style="padding: 0.85rem 1rem;">
-        <div class="detail-text">{{ .Date.Format "Jan 2, 2006" }}</div>
-        <div class="pub-title" style="margin: 0.25rem 0;">{{ .Title }}</div>
-        <div class="pub-meta">{{ .Summary | truncate 100 }}</div>
-      </div>
-    </a>
-    {{- end }}
-  </div>
-  <div style="text-align: center; margin-bottom: 2.5rem;">
-    <a href="/blog/" class="body-text" style="font-weight: 500;">View all posts &rarr;</a>
-  </div>
-  {{- end }}
 
 </div>
 
