@@ -91,16 +91,10 @@ menu:
       name: CV
       url: /cv/
       weight: 40
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 50
-
 outputs:
   home:
     - HTML
     - RSS
-    - JSON
 
 markup:
   goldmark:
