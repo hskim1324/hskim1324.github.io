@@ -25,14 +25,15 @@
   .profile .profile_inner {
     padding: 1rem;
   }
-
-  .post-content {
-    padding: 0 1rem !important;
-  }
 }
 
-/* Dark mode fix for Best Paper Award badge */
-.dark span[style*="background: #fef2f2"] {
-  background: #451a1a !important;
-  color: #f87171 !important;
+/* Header: semi-transparent backdrop for readability over banner */
+.header {
+  background: rgba(255, 255, 255, 0.85) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+[data-theme="dark"] .header {
+  background: rgba(29, 30, 32, 0.85) !important;
 }
