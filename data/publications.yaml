@@ -1,16 +1,16 @@
+- title: "TESSERA: A Workload-Driven Simulation and Design-Space Exploration Framework for Heterogeneous NPUs"
+  authors: "A. Das*, <strong>H. Kim</strong>*, S. Lee, A. Raha, D. Mathaikutty, V. Raghunathan"
+  venue: "IEEE International Symposium on Workload Characterization (IISWC), 2026"
+  year: 2026
+  arxiv: "https://arxiv.org/abs/2606.05362"
+  note: "*Equal contribution"
+  selected: true
+
 - title: "BIDENT: Heterogeneous Operator-level Mapping for Efficient Edge Inference"
   authors: "<strong>H. Kim</strong>, A. Das, S. Ghosh, A. Raha, V. Raghunathan"
   venue: "arXiv preprint, 2026"
   year: 2026
   arxiv: "https://arxiv.org/abs/2606.05271"
-  selected: true
-
-- title: "MOSAIC: A Workload-Driven Simulation and Design-Space Exploration Framework for Heterogeneous NPUs"
-  authors: "A. Das*, <strong>H. Kim</strong>*, S. Lee, A. Raha, D. Mathaikutty, V. Raghunathan"
-  venue: "arXiv preprint, 2026"
-  year: 2026
-  arxiv: "https://arxiv.org/abs/2606.05362"
-  note: "*Equal contribution"
   selected: true
 
 - title: "Towards Efficient Acceleration of Hyena and Kolmogorov-Arnold Networks on NPUs"
